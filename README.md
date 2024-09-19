@@ -17,7 +17,7 @@ fgen.nb generates integer-linear matrices. It takes a list of fibonacci factors 
 
 gen.nb generates integer-linear matrices. It takes a partial order $X$ and constructs its corresponding $M^x$.
 
-eig.nb computes symbolic eigenvalues for a given matrix A. You can import a matrix that was exported in either generation script, or of course create your own cell to do matrix creation and computation in the same place.
+eig.nb computes symbolic eigenvalues for a given matrix $A$. You can import a matrix that was exported in either generation script, or of course create your own cell to do matrix creation and computation in the same place.
 
 zle-mma offers both matrix generation and eigenvalue computation. It has the second fastest runtime next to the C++ implementation, but:
 for very large general matrix creation (gen.nb), you may need to use zlepy because currently gen.nb filters legal permutations from the set of all possible permutations (instead of constructing them from ground-up), which is exponential with respect to the number of elements being permuted. 
