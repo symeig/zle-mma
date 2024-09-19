@@ -16,9 +16,10 @@ for very large general matrix creation (gen.nb), you may need to use zlepy becau
 
 ## Citation
 
-> @misc{xxxx.xxxxx,
-> {Jonny Luntzel, Abraham Miller},
-> {Fast Symbolic Integer-Linear Spectra},
-> {2024},
-> {arXiv:xxxx.xxxxx}
-> }
+```bibtex
+@misc{xxxx.xxxxx,
+  Author = {Jonny Luntzel, Abraham Miller},
+  Title = {Fast Symbolic Integer-Linear Spectra},
+  Year = {2024},
+  Eprint = {arXiv:xxxx.xxxxx},
+}
