@@ -1,4 +1,4 @@
-# ZLE (Symbolic Integer-Linear Eigenvalues Toolkit)
+# ZLE (Integer-Linear Eigenvalues Toolkit)
 
 
 ## Setup
