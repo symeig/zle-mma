@@ -3,9 +3,9 @@
 
 ## Setup
 
-1. Determine your base directory by running $UserBaseDirectory in the Mathematica environment
+1. Determine your base directory by running $UserBaseDirectory in the Mathematica environment.
    
-2. From your installation location, copy lib.wl to a place where Mathematica can find it
+2. From your installation location, copy lib.wl to a place where Mathematica can find it.
   - mkdir yourbasedirectory/applications/lib
   - cp lib.wl yourbasedirectory/applications/lib
     
