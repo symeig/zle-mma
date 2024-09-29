@@ -20,13 +20,3 @@
 **`eig.nb`** computes symbolic eigenvalues for a given matrix $A$. You can import a matrix that was exported in either generation script, or of course create your own cell to do matrix creation and computation in the same place.
 
 zle-mma offers both matrix generation and eigenvalue computation. It has the second fastest runtime next to the C++ implementation. Note that for very large general matrix creation, gen.nb currently filters permutations from an exponentially-sized sample space (instead of constructing them from ground-up, like gen.py), which may cause high memory demand.
-
-## Citation
-
-```bibtex
-@misc{xxxx.xxxxx,
-  Author = {Jonny Luntzel, Abraham Miller},
-  Title = {Fast Symbolic Integer-Linear Spectra},
-  Year = {2024},
-  Eprint = {arXiv:xxxx.xxxxx},
-}
